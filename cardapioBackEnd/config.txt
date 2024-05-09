@@ -1,0 +1,4 @@
+1: habilitar o maven (maven -> project -> lifecycle -> package)
+2: autorizar o build do projeto automaticamente (IntelliJ File Setting -> Build, Execution, Deployment ->
+                                                 Compiler -> build project automatically)
+3: Habilitar devTools e restart automático (IntelliJ File Setting -> Advanced Settings -> Allow make to start...)
