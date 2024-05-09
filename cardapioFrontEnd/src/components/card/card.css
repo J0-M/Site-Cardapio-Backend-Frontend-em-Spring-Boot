@@ -1,0 +1,35 @@
+.card{/*estilização do container card (elemento do cardapio)*/
+    display: flex;/*faz com que os elementos dentro do container sejam exibidos em uma linha vertical */
+    flex-direction: column;/*define a direção dos itens no container para ser de cima para baixo */
+    align-items: center;/*alinhamento dos elementos do card*/
+    justify-content: center;/*alinha o conteúdo horizontalmente no centro do container */
+    width: 250px;/*largura ocupada na pagina*/
+    border-radius: 8px;/*grossura da borda*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;/*efeito de sombra*/
+    padding: 0;/*distanciamento entre os elementos internos*/
+}
+
+.card img{/*estilização da imagem do card*/
+    border-radius: 8px 8px 0 0;/*borda da imagem*/
+    width: 250px;/*largura ocupada*/
+    height: 200px;/*altura ocupada*/
+}
+
+.card button{
+    position: inherit;
+    padding: 10px 20px; /* Adiciona algum preenchimento ao redor do texto */
+    border: none; /* Remove a borda */
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+
+.updateButton{
+    background-color: #64d131; /* Cor verde */
+    color: #e7e5e5; /* Cor do texto */
+    margin-bottom: auto;
+}
+
+.deleteButton{
+    background-color: #d13131; /* Cor vermelha */
+    color: #e7e5e5; /* Cor do texto */
+    margin-bottom: auto;
+}

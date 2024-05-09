@@ -1,0 +1,28 @@
+<<abrir cmd>>
+
+utilização do vite para configuração do front end
+
+npm create vite@latest // cria a aplicação frontend
+.
+.
+.
+cd <<nome_do_projeto>>
+code .
+.
+.
+.
+<<abrir cmd do vs code>>
+npm install //instala as dependencias vite e react, bem como inicializa o node
+npm run dev //checa se o vite está funcionando corretamente
+.
+.
+.
+npm install @tanstack/react-query //instala a lib react para consultar dados do backend
+
+npm install axios //lib para realizar fetch nos dados do backend e armazena-los numa variavel, para poderem ser utilizados
+		  //axios é uma lib que permite disparar requisições http
+
+.
+.
+.
+npm run dev //roda a aplicação

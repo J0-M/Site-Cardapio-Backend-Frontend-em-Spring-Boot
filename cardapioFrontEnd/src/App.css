@@ -1,0 +1,28 @@
+.container {
+    display: flex;/*faz com que os elementos dentro do container sejam exibidos em uma linha vertical */
+    align-items: center;/*alinha os itens verticalmente no centro do container */
+    flex-direction: column;/*define a direção dos itens no container para ser de cima para baixo */
+    justify-content: center;/*alinha o conteúdo horizontalmente no centro do container */
+    width: 100vw;/*define a largura do container como 100% da largura da tela visível */
+}
+  
+.card-grid {
+    display: grid;/*define um layout de grid para os elementos */
+    grid-template-columns: 1fr 1fr 1fr;/*define três colunas com largura igual */
+    gap: 16px;/*define o espaçamento entre as células do grid */
+}
+  
+.container button {
+    background-color: #0275d8;/*define a cor de fundo do botão */
+    color: white;/*define a cor de texto do botão */
+    font-weight: bold;/*texto do botão em negrito */
+    position: fixed; /*posiciona o botão de forma fixa em relação à parte inferior e à direita do container */
+    bottom: 16px;
+    right: 24px;
+    transition: all 0.1s linear 0.1s;/*adiciona uma transição suave de propriedades CSS */
+}
+  
+.container button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;/*adiciona uma sombra ao botão quando o mouse está sobre ele */
+    transform: scale(1.1);/*aumenta ligeiramente o tamanho do botão quando o mouse está sobre ele */
+}

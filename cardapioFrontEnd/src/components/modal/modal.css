@@ -1,0 +1,72 @@
+.modal-overlay {/*define o estilo para a camada de sobreposição modal */
+
+    position: fixed; /*posiciona a camada de sobreposição de forma fixa */
+    inset: 0; /*define os valores superior, direito, inferior e esquerdo para 0, mantendo a camada de sobreposição cobrindo toda a tela */
+    background-color: rgba(0,0,0,0.4); /*define a cor de fundo com transparência */
+    overflow: hidden; /*esconde qualquer conteúdo que se estenda para fora da camada de sobreposição (desfoca o background) */
+    height: 100vh; /*define a altura para 100% da altura da tela visível */
+    width: 100vw; /*define a largura para 100% da largura da tela visível */
+
+    display: flex; /*define o layout de exibição como flexível */
+    align-items: center; /*alinha os itens verticalmente no centro */
+    justify-content: center; /*alinha os itens horizontalmente no centro */
+
+    z-index: 999; /*define a ordem de empilhamento para garantir que a camada de sobreposição seja exibida na frente de outros elementos */
+}
+
+.modal-overlay .modal-body {/*define o estilo para o corpo modal */
+
+    background-color: white; /*define a cor de fundo do corpo modal */
+    padding: 24px; /*ddiciona preenchimento interno ao redor do corpo modal */
+    height: 60%; /*define a altura do corpo modal */
+    width: 60%; /*define a largura do corpo modal */
+    border-radius: 24px; /*adiciona borda arredondada ao corpo modal */
+
+    display: flex; /*define o layout de exibição como flexível */
+    align-items: flex-start; /*alinha os itens verticalmente no topo */
+    flex-direction: column; /*define a direção dos itens como de cima para baixo */
+    justify-content: space-between; /*distribui o espaço entre os itens verticalmente */
+}
+.modal-overlay .modal-body h2 {/*define o estilo para o título do corpo modal */
+
+    font-size: 32px; /*define o tamanho da fonte do título */
+}
+
+.modal-overlay .modal-body .input-container {/* Define o estilo para o contêiner de entrada dentro do corpo modal */
+
+    width: calc(100% - 24px); /*define a largura do contêiner de entrada com base na largura do corpo modal */
+}
+
+.modal-overlay .modal-body input {/*define o estilo para os campos de entrada dentro do corpo modal */
+
+    padding: 12px; /*adiciona preenchimento interno ao redor do input */
+    border: 2px solid #c6c5c5c5; /*define uma borda sólida com a cor especificada */
+    color: rgba(0,0,0,0.9); /*define a cor do texto */
+    font-size: 18px; /*define o tamanho da fonte */
+    line-height: 24px; /*define a altura da linha */
+    border-radius: 12px; /*adiciona bordas arredondadas ao input */
+    width: 100%; /*define a largura do input como 100% */
+
+    margin-bottom: 12px; /*adiciona margem inferior */
+}
+
+.modal-overlay .modal-body label {/*define o estilo para as etiquetas dentro do corpo modal */
+
+    color: #242424; /*define a cor do texto */
+    font-weight: 600; /*define o peso da fonte */
+    margin-bottom: 8px; /*adiciona margem inferior */
+    font-size: 18px; /*define o tamanho da fonte */
+}
+
+.modal-overlay .modal-body .btn-secondary {/*define o estilo para o botão secundário dentro do corpo modal */
+
+    position: initial; /*define a posição do botão como a posição inicial */
+    width: 100%; /*define a largura do botão como 100% */
+    margin-top: 32px; /*adiciona margem superior */
+}
+
+.modal-overlay .modal-body .btn-secondary:hover {/*define o estilo para o botão secundário quando o cursor está sobre ele */
+
+    background-color: #3a44f8; /*define a cor de fundo do botão quando o cursor está sobre ele */
+    transform: scale(1); /*aplica uma transformação de escala ao botão quando o cursor está sobre ele */
+}
