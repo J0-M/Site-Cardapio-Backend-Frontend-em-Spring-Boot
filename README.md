@@ -28,7 +28,7 @@ O foco foi aprender e aplicar conceitos de:
 
 # Estrutura do Projeto
 
-<pre markdown="1"> ```text 
+<pre markdown="1">
    siteCardapio/ 
    ├── src/ 
    │ ├── main/ │
@@ -45,7 +45,7 @@ O foco foi aprender e aplicar conceitos de:
    │ └── test/ → Testes automatizados
    ├── pom.xml → Configuração Maven
    └── README.md
-   ``` </pre>
+ </pre>
 
 # Execução 
 
