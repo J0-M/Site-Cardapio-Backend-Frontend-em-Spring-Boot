@@ -28,7 +28,6 @@ O foco foi aprender e aplicar conceitos de:
 
 # Estrutura do Projeto
 
-`
 siteCardapio/
  ├── src/
  │   ├── main/
@@ -36,7 +35,6 @@ siteCardapio/
  │   │   └── resources/ → Templates Thymeleaf + config
  │   └── test/ → Testes automatizados
  ├── pom.xml → Configuração Maven
-`
 
 # Execução 
 
@@ -54,3 +52,7 @@ siteCardapio/
    `
     http://localhost:8080
    `
+# Melhorias Futuras 
+- Implementar autenticação e controle de usuários (login/admin).
+- Criar integração com API de pedidos.
+- Melhorar design do frontend com templates mais modernos.
