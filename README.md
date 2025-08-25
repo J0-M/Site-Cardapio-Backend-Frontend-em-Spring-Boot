@@ -28,13 +28,7 @@ O foco foi aprender e aplicar conceitos de:
 
 # Estrutura do Projeto
 
-siteCardapio/
- ├── src/
- │   ├── main/
- │   │   ├── java/ → Código backend (Spring Boot)
- │   │   └── resources/ → Templates Thymeleaf + config
- │   └── test/ → Testes automatizados
- ├── pom.xml → Configuração Maven
+<pre markdown="1"> ```text siteCardapio/ ├── src/ │ ├── main/ │ │ ├── java/ → Código backend (Spring Boot) │ │ │ └── com/ │ │ │ └── exemplo/ │ │ │ ├── controller/ │ │ │ ├── model/ │ │ │ ├── repository/ │ │ │ └── service/ │ │ └── resources/ → Templates Thymeleaf + configs │ │ ├── templates/ │ │ └── application.properties │ └── test/ → Testes automatizados ├── pom.xml → Configuração Maven └── README.md ``` </pre>
 
 # Execução 
 
