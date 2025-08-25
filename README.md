@@ -51,7 +51,7 @@ O foco foi aprender e aplicar conceitos de:
 
 1. Clone o repositório
    `
-    git clone https://github.com/seu-usuario/siteCardapio.git
+    git clone https://github.com/J0-M/Site-Cardapio-Backend-Frontend-em-Spring-Boot.git
     cd siteCardapio
    `
 2. Configure o banco de dados no arquivo application.properties (PostgreSQL)
