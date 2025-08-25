@@ -25,3 +25,32 @@ O foco foi aprender e aplicar conceitos de:
 - Edição dos itens
 - Exclusão de registros
 - Interface simples integrada ao backend
+
+# Estrutura do Projeto
+
+`
+siteCardapio/
+ ├── src/
+ │   ├── main/
+ │   │   ├── java/ → Código backend (Spring Boot)
+ │   │   └── resources/ → Templates Thymeleaf + config
+ │   └── test/ → Testes automatizados
+ ├── pom.xml → Configuração Maven
+`
+
+# Execução 
+
+1. Clone o repositório
+   `
+    git clone https://github.com/seu-usuario/siteCardapio.git
+    cd siteCardapio
+   `
+2. Configure o banco de dados no arquivo application.properties (PostgreSQL)
+3. Execute a aplicação com o comando:
+   `
+    mvn spring-boot:run
+   `
+4. Acesse, no navegador, a URL:
+   `
+    http://localhost:8080
+   `
