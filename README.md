@@ -47,7 +47,7 @@ O foco foi aprender e aplicar conceitos de:
    └── README.md
  </pre>
 
-# Execução 
+# Como Executar?
 
 1. Clone o repositório
    `
