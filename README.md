@@ -9,3 +9,19 @@ O foco foi aprender e aplicar conceitos de:
 - Banco de Dados (PostgreSQL)
 - CRUD completo (Create, Read, Update, Delete)
 - Integração frontend + backend no mesmo projeto
+
+# Tecnologias Utilizadas
+
+- Java 17+
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL
+- HTML, CSS e Bootstrap
+
+# Funcionalidades
+
+- Cadastro de pratos/bebidas no cardápio
+- Listagem dos itens cadastrados
+- Edição dos itens
+- Exclusão de registros
+- Interface simples integrada ao backend
